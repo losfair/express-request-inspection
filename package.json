@@ -1,0 +1,36 @@
+{
+  "name": "express-request-inspection",
+  "version": "0.0.1",
+  "description": "Request inspection module to check for malicious requests for Express",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/losfair/express-request-inspection.git"
+  },
+  "keywords": [
+    "request",
+    "inspection",
+    "packet",
+    "data",
+    "express",
+    "security",
+    "check"
+  ],
+  "files": [
+    "*.cc",
+    "*.h",
+    "*.js",
+    "binding.gyp"
+  ],
+  "author": "Heyang Zhou",
+  "license": "LGPL-3.0",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/losfair/express-request-inspection/issues"
+  },
+  "homepage": "https://github.com/losfair/express-request-inspection#readme"
+}
